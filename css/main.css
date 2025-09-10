@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff
+
+}
+
+header {
+    background-color: #006E7F;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-family: "Times New Roman", serif;
+}
+
+.section {
+    font-size: 20px;
+    background-color: #c0c0c0;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 9px 10px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+   background-color: rgb(164, 188, 255);
+
+}
+
+td {
+    background-color: rgb(240, 246, 252);
+
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.formulario input, textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Times New Roman", serif;
+    color: white;
+    background-color: #505050;
+}
+
+.formulario label {
+    margin-bottom: 4px;
+    font-family: "Times New Roman", serif;
+}
+
+button {
+    border-radius: 10px;
+    width: 50%;
+}
+
+.botão {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #ff9797;
+}
+
+footer {
+    font-size: 18px;
+    background-color: #006E7F;
+    text-align: center;
+}
+
+.ic{
+    text-align: center;
+}
+
+.tabelas{
+border: none;
+background: none;
+border-collapse: collapse;
+}
+
+.tabelas th{
+    border: none;
+    background: none;
+}
+.tabelas td{
+    border: none;
+    background: none;
+}
+
+ul, il{
+    margin-left: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.fotoperfil{
+    text-align: center;
+    margin-bottom: 35px;
+}
